@@ -9,9 +9,9 @@ public class Student implements Comparable<Student>{
                     .thenComparing((Student student) -> student.name)
                     .thenComparingInt((Student student) -> student.id);
 
-    String name;
-    int id;
-    double score;
+    private String name;
+    private int id;
+    private double score;
 
     public Student(String name, int id, double score) {
         this.name = name;
